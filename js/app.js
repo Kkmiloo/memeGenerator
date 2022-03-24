@@ -78,6 +78,7 @@ function validarCaptcha(input) {
 
     if (input === parrafoCaptcha) {
         reiniciarContenido();
+        agregarMensaje("Captcha Valido", "success");
     } else {
         agregarMensaje("Captcha Invalido", "error");
     }
